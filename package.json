@@ -1,0 +1,26 @@
+{
+  "name": "tts-samples",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "go": "npm run build; npm run start"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "axios": "^1.4.0",
+    "deepspeech": "^0.9.3",
+    "ffmpeg": "^0.0.4",
+    "uuid": "^9.0.0",
+    "whisper-node": "^0.2.12"
+  },
+  "devDependencies": {
+    "@types/ffmpeg": "^1.0.4",
+    "@types/node": "^20.3.3",
+    "@types/uuid": "^9.0.2",
+    "typescript": "^5.1.6"
+  }
+}
